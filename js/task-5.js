@@ -4,7 +4,7 @@
 // Слова в строке могут быть в произвольном регистре.
 
 const checkForSpam = function(message) {
-  let msg = message.toLowerCase()
+  const msg = message.toLowerCase()
 
   if (msg.includes('spam') || msg.includes('sale')) {
     return true; 
